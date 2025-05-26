@@ -81,7 +81,7 @@ nav {
 .hero-section {
     padding: 2.5rem 1.5rem 6rem;
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
     flex-direction: column;
     align-items: center;
 }
@@ -96,3 +96,122 @@ nav {
 }
 
 /* Main */
+
+/* About section */
+.about-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    order: 1;
+}
+
+/* Section title */
+.section-title {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    font-family: var(--heading-font-family);
+    text-align: center;
+    width: 80%;
+}
+
+/* Section description */
+.section-description {
+    color: var(--grey-600);
+    font-weight: 500;
+    font-family: var(--paragraph-font-family);
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Learn More button */
+.btn-learn-more {
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.16rem;
+}
+
+.btn-learn-more::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    margin-top: -0.4rem;
+}
+
+.btn-learn-more.yellow::after {
+    background-color: hsla(51, 100%, 49%, 0.405);
+}
+
+.btn-learn-more.purple::after {
+    background-color: hsla(7, 99%, 70%, 0.429);
+}
+
+/* Stand Out section */
+
+.stand-out-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stand-out-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    gap: 1.5rem;
+    order: 1;
+}
+
+/* Services section */
+
+.services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service {
+    position: relative;
+}
+
+.service-content {
+    padding: 0 2rem;
+    position: absolute;
+    top: 22rem;
+    left: 0;
+}
+
+.graphic-design-content {
+    color: var(--green-800-graphic-design-text);
+}
+
+.photography-content {
+    color: var(--blue-800-photography-text);
+}
+
+.service-title {
+    font-weight: 900;
+    font-family: var(--heading-font-family);
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.service-description {
+    font-family: var(--paragraph-font-family);
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Testimonials section */
