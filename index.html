@@ -61,7 +61,7 @@
                     </ul>
                 </div>
             </nav>
-            <section class="hero">
+            <section class="hero-section" id="hero">
                 <h1>We are creatives</h1>
                 <div class="arrow-down">
                     <img src="./images/icon-arrow-down.svg" alt="arrow-down" />
@@ -69,18 +69,18 @@
             </section>
         </header>
         <main>
-            <section>
-                <div class="text-content">
-                    <h2>Transform your brand</h2>
-                    <p>
+            <section id="about" class="about-section">
+                <div class="about-content">
+                    <h2 class="section-title">Transform your brand</h2>
+                    <p class="section-description">
                         We are a full-service creative agency specializing in
                         helping brands grow fast. Engage your clients through
                         compelling visuals that do most of the marketing for
                         you.
                     </p>
-                    <a href="#" class="btn">Learn more</a>
+                    <a href="#" class="btn btn-learn-more">Learn more</a>
                 </div>
-                <picture class="section-img transform-your-brand">
+                <picture class="about-img">
                     <source
                         media="(min-width: 992px)"
                         srcset="./images/desktop/image-transform.jpg"
@@ -91,8 +91,8 @@
                     />
                 </picture>
             </section>
-            <section class="stand-out">
-                <picture class="section-img stand-out">
+            <section id="stand-out" class="stand-out-section">
+                <picture class="stand-out-img">
                     <source
                         media="(min-width: 992px)"
                         srcset="./images/desktop/image-stand-out.jpg"
@@ -103,19 +103,21 @@
                     />
                 </picture>
 
-                <div class="text-content">
-                    <h2>Stand out tu the right audience</h2>
-                    <p>
+                <div class="stand-out-content">
+                    <h2 class="section-title">
+                        Stand out tu the right audience
+                    </h2>
+                    <p class="section-description">
                         Using a collaborative formula of designers, researchers,
                         photographers, videographers, and copywriters, we’ll
                         build and extend your brand in digital places.
                     </p>
-                    <a href="#" class="btn">Learn more</a>
+                    <a href="#" class="btn btn-learn-more">Learn more</a>
                 </div>
             </section>
-            <section class="services" id="services">
-                <div class="service">
-                    <picture class="section-img">
+            <section id="services" class="services-section">
+                <div class="service service-graphic-design">
+                    <picture class="service-img">
                         <source
                             media="(min-width: 992px)"
                             srcset="./images/desktop/image-graphic-design.jpg"
@@ -126,15 +128,15 @@
                         />
                     </picture>
 
-                    <h3>Graphic Design</h3>
-                    <p>
+                    <h3 class="service-title">Graphic Design</h3>
+                    <p class="service-description">
                         Great design makes you memorable. We deliver artwork
                         that underscores your brand message and captures
                         potential clients’ attention.
                     </p>
                 </div>
-                <div class="service">
-                    <picture class="section-img">
+                <div class="service service-photography">
+                    <picture class="service-img">
                         <source
                             media="(min-width: 992px)"
                             srcset="./images/desktop/image-photography.jpg"
@@ -144,46 +146,46 @@
                             alt="photography"
                         />
                     </picture>
-
-                    <p>
+                    <h3 class="service-title">Photography</h3>
+                    <p class="service-description">
                         Increase your credibility by getting the most stunning,
                         high-quality photos that improve your business image.
                     </p>
                 </div>
             </section>
-            <section class="testimonials" id="testimonials">
-                <h2>Client Testimonials</h2>
+            <section id="testimonials" class="testimonials-section">
+                <h2 class="section-title">Client Testimonials</h2>
                 <div class="testimonial">
                     <img src="./images/image-emily.jpg" alt="person-1" />
-                    <p>
+                    <p class="testimonial-text">
                         We put our trust in Sunnyside and they delivered, making
                         sure our needs were met and deadlines were always hit.
                     </p>
-                    <h4>Emily R.</h4>
-                    <p>Marketing Director</p>
+                    <h4 class="testimonial-name">Emily R.</h4>
+                    <p class="testimonial-role">Marketing Director</p>
                 </div>
                 <div class="testimonial">
                     <img src="./images/image-thomas.jpg" alt="person-2" />
-                    <p>
+                    <p class="testimonial-text">
                         Sunnyside’s enthusiasm coupled with their keen interest
                         in our brand’s success made it a satisfying and
                         enjoyable experience.
                     </p>
-                    <h4>Thomas S.</h4>
-                    <p>Chief Operating Officer</p>
+                    <h4 class="testimonial-name">Thomas S.</h4>
+                    <p class="testimonial-role">Chief Operating Officer</p>
                 </div>
                 <div class="testimonial">
                     <img src="./images/image-jennie.jpg" alt="person-3" />
-                    <p>
+                    <p class="testimonial-text">
                         Incredible end result! Our sales increased over 400%
                         when we worked with Sunnyside. Highly recommended!
                     </p>
-                    <h4>Jennie F.</h4>
-                    <p>Business Owner</p>
+                    <h4 class="testimonial-name">Jennie F.</h4>
+                    <p class="testimonial-role">Business Owner</p>
                 </div>
             </section>
-            <section id="gallery" class="gallery">
-                <picture class="gallery-img">
+            <section id="gallery" class="gallery-section">
+                <picture class="gallery-item">
                     <source
                         media="(min-width: 992px)"
                         srcset="./images/desktop/image-gallery-milkbottles.jpg"
@@ -193,7 +195,7 @@
                         alt="milk-bottles"
                     />
                 </picture>
-                <picture class="gallery-img">
+                <picture class="gallery-item">
                     <source
                         media="(min-width: 992px)"
                         srcset="./images/desktop/image-gallery-orange.jpg"
@@ -203,7 +205,7 @@
                         alt="orange"
                     />
                 </picture>
-                <picture class="gallery-img">
+                <picture class="gallery-item">
                     <source
                         media="(min-width: 992px)"
                         srcset="./images/desktop/image-gallery-cone.jpg"
@@ -213,7 +215,7 @@
                         alt="cone"
                     />
                 </picture>
-                <picture class="gallery-img">
+                <picture class="gallery-item">
                     <source
                         media="(min-width: 992px)"
                         srcset="./images/desktop/image-gallery-sugarcubes.jpg"
@@ -225,28 +227,28 @@
                 </picture>
             </section>
         </main>
-        <footer>
-            <div class="footer-content">
+        <footer class="site-footer">
+            <div class="footer-logo">
                 <img src="./images/logo.svg" alt="sunnyside-logo" />
-                <ul class="footer-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                </ul>
-                <div class="social-icons">
-                    <a href="#"
-                        ><img src="./images/icon-facebook.svg" alt="facebook"
-                    /></a>
-                    <a href="#"
-                        ><img src="./images/icon-instagram.svg" alt="instagram"
-                    /></a>
-                    <a href="#"
-                        ><img src="./images/icon-twitter.svg" alt="twitter"
-                    /></a>
-                    <a href="#"
-                        ><img src="./images/icon-pinterest.svg" alt="pinterest"
-                    /></a>
-                </div>
+            </div>
+            <ul class="footer-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="#"
+                    ><img src="./images/icon-facebook.svg" alt="facebook"
+                /></a>
+                <a href="#"
+                    ><img src="./images/icon-instagram.svg" alt="instagram"
+                /></a>
+                <a href="#"
+                    ><img src="./images/icon-twitter.svg" alt="twitter"
+                /></a>
+                <a href="#"
+                    ><img src="./images/icon-pinterest.svg" alt="pinterest"
+                /></a>
             </div>
         </footer>
 

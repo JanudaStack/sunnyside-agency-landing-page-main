@@ -78,15 +78,15 @@ nav {
 }
 
 /* Hero section */
-.hero {
-    padding: 2.5rem 1.5rem;
+.hero-section {
+    padding: 2.5rem 1.5rem 6rem;
     display: flex;
     gap: 3rem;
     flex-direction: column;
     align-items: center;
 }
 
-.hero h1 {
+.hero-section h1 {
     color: var(--white);
     font-family: var(--heading-font-family);
     font-size: clamp(2rem, 5vw, 4rem);
@@ -94,3 +94,5 @@ nav {
     text-align: center;
     letter-spacing: 0.4rem;
 }
+
+/* Main */
