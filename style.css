@@ -223,6 +223,16 @@ nav {
     padding: 3rem 0 6rem;
 }
 
+.section-title-testimonial {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: var(--grey-550);
+    font-family: var(--heading-font-family);
+    font-size: 1rem;
+    padding: 0 0.7rem;
+}
+
 .testimonial-container {
     display: flex;
     flex-direction: column;
@@ -273,13 +283,15 @@ nav {
     flex-direction: column;
     gap: 3rem;
     padding: 3rem 0 5rem;
-    background-color: var(--green-500-footer);
+    background-color: hsl(167, 44%, 59%);
 }
 
-.footer-logo {
+.footer-logo h2 {
+    color: hsla(166, 45%, 32%, 1);
+    text-align: center;
     font-family: var(--paragraph-font-family);
-    display: flex;
-    justify-content: center;
+    font-weight: 700;
+    font-size: 1.8rem;
 }
 
 .footer-links {
@@ -289,7 +301,7 @@ nav {
 }
 
 .footer-links a {
-    color: hsla(167, 33%, 16%, 0.545);
+    color: var(--green-500-footer);
     font-weight: 600;
 }
 
@@ -304,7 +316,7 @@ nav {
     padding: 1rem 0;
     font-size: 12px;
     font-family: var(--heading-font-family);
-    background-color: var(--green-500-footer);
+    background-color: hsl(167, 44%, 59%);
     text-align: center;
 }
 
