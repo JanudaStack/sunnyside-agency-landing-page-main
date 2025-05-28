@@ -91,7 +91,7 @@ nav {
 .hero-section h1 {
     color: var(--white);
     font-family: var(--heading-font-family);
-    font-size: clamp(2rem, 5vw, 4rem);
+    font-size: clamp(2.4rem, 5vw, 4rem);
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.4rem;
